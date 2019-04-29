@@ -68,6 +68,10 @@ The data for wages is broken down into the following categories:
 - other services
 - unclassified
 
+Economic data related shortcomings:
+
+When collecting the economic data we collected wage and unemployment data but were only able to find monthly data for these two statistics which limited how much we were able to see the affects of natural distasters which often impact communities immediately. Additionally our wage datasets had many missing values which meant that some industries we could not affectively model and make conclusions about. When using BLS's API to get our wage data we were only able to bring in private industry data and were having difficulties bringing in government and non-profit industry data. This limited the amount of wage data we were able to gather on industries and it might be that government and non-profits are impacted differently from natural disasters compated to private industries. It is also worth noting that wages are not the best at measuring the economic impact of the sudden changes that natural disasters cause but are better measurements of how in demand different fields are. One possible alternative tht we could use in the future to measure the economic impact of sudden changes would be sales per day in a given locality.
+
 We collected data for the following weather metrics:
 
 - barometric pressure
@@ -75,7 +79,9 @@ We collected data for the following weather metrics:
 - maximum sustained 2 minute wind speed
 - maximum sustained 5 second wind speed
 
+Weather data related shortcomings: 
 
+When I collected tide levels for each of the localities there were were not consistent patterns on how many readings were taken per day so some days would have more readings than other days. Even though there were not consistent readings per day tide readings were conistent in that they had readings every single day. When I collected barometric pressure statistics there were instances where there would be multiple months worth of data missing, which according to a employee at NOAA was most likely due to problems with the machines taking the readings. 
 
 ## Methodology
 
