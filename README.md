@@ -85,6 +85,9 @@ When I collected tide levels for each of the localities there were were not cons
 
 ## Methodology
 
+Because natural disasters occur suddenly, we are trying to assess the sudden fluctuations in the economic data that may have occurred in the months following Hurricane Sandy, which occurred in October 2012. That means that, in the context of ARIMA modeling, we are interested in extracting the moving average component of this data (which handles sudden fluctuations), and ignoring the auto-regressive component of this data (which handles long-term trends). Because we have obvious seasonality in this data, we will take one order of seasonal differencing (12 months) before fitting the models.
+
+We will perform this analysis on both the wages data and the unemployment data. We will perform a qualitative analysis of these time series in order to investigate if there is any noticeable change in wages or unemployment due to Hurricane Sandy. 
 
 
 ## Results
