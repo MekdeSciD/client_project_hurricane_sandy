@@ -109,6 +109,38 @@ We will perform this analysis on both the wages data and the unemployment data. 
 
 ## Results
 
+In general, we did not see any obvious fluctuation in the moving average wages for any locality and for any industry. Because Atlantic City had the most extreme storm conditions, we will include sample plots from our moving average wage models below. As opposed to wages, we see a small uptick in unemployment at the beginning of 2013 that may potentially be attributed to Hurricane Sandy, but it is not a large enough increase for us to make any meaningful conclusions. Atlantic City experienced the largest increase.
 
 
 ## Conclusions
+
+We will return to our hypotheses in order to evaluate our results.
+
+
+1. The occurrence of a natural disaster will lead to a pronounced loss of wages and increase in unemployment.
+
+We did not see evidence that wages are impacted by natural disasters. We saw inconclusive evidence that unemployment increases as a result of a natural disaster.
+
+2. The occurrence of a natural disaster will negatively affect wages in tourism industries.
+
+We saw no evidence that wages in tourism industries are affected by the occurrence of a natural disaster.
+
+3. The occurrence of a natural disaster will not significantly affect wages in professional industries. 
+
+The results were in line with the hypothesis that wages in professional industries are not impacted by the occurrence of a natural disaster, although that is a relatively trivial conclusion since wages generally seemed to not be impacted by the occurrence of a disaster.
+
+4. The relative intensity of a disaster in a given locality will be correlated to any negative impact on wages and unemployment.
+
+We saw inconclusive evidence to support this. Out of the localities that we analyzed, the largest uptick in unemployment following Hurricane Sandy occurred in Atlantic City, which also experienced the most intense storm conditions of the localities that we analyzed. However, due to the limited scope of our analysis and due to the limited timeframe of our data, we cannot make any meaningful conclusions based on this.
+
+## Recommendations
+
+Moving forward, we would be interested in analyzing other economic metrics that may be more impacted by the occurrence of a natural disaster. We would probably not study wage data again for this problem. We probably would look further into the potential impact on unemployment from natural disasters by looking at other instances of disasters and expanding the duration of the time series data. Some other metrics that we would be curious to look into would be daily sales data and insurance claims because we feel that they might be more responsive to sudden shocks to the system as compared to wages. In any case, we would recommend acquiring significantly more data than we did in order to improve the time series modeling. Since we were modeling with a seasonal difference of one year, and since we only collected six years of data, we only considered 5 years of data, which is not enough to build a quality time series model.
+
+Additionally, if we had more time, we would have developed a methodology for making a quantitative estimate of the impact of a disaster. As it was, our data did not show enough of an out-of-the-norm-response to the occurrence of a disaster to conclude that there was any impact due to the disaster. At the same time, the ultimate goal of this project was to be able to estimate the economic impact of a disaster, so we eventually want to be able to make a quantitative measurement of the impact. In order to facilitate this, we need to collect more data, explore more economic metrics, and analyze more disasters.
+
+
+*A link to our presentation can be found here: https://prezi.com/view/4gXbgpUtN7HvtMc7oABo/*
+
+
+
